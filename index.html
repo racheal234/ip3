@@ -1,35 +1,39 @@
 <!DOCTYPE html>
   <html>
     <head>
-
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <div class="row" id="head">
       <title>Ping pong</title>
-    </div>
-    </head>
+      <link href="css/bootstrap.min.css" rel ="stylesheet" type="text/css" media="all">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+  </head>
     <body>
-      <div class="container">
-        <h1>Ping pong</h1
-        </div>
+      <div class="head">
+        <h1>Ping pong</h1>
+      </div>
+      <div class="row" id="rules">
+        <div class="col-md-6">
+        <h2>lets play!</h2>
 				<p>Hi there!,ping pong will count up to your number
         with the following exceptions;</p>
-				<h2>Exceptions</h2>
+        <h3></h3>
 				<ol>
 					<li>Numbers divisible by 3 are replaced with 'ping'</li>
 					<li>Numbers divisible by 5 are replaced with 'pong'</li>
 					<li>Numbers divisible by 15 are replaced with 'ping pong'</li>
 				</ol>
-<div id="number_range">
+      </div>
+    </div>
+        <div id="number_range">
         <form>
           <div class="form-group">
           <label for="number">Enter a number and find out:</label>
             <input id="mynumbers" type="number">
           </div>
 
-          <button type="button" class="btn"id="button">Lets play!</button>
+          <button type="button" class="btn"id="button">ping-pong!</button>
         </form>
       </div>
-<div class="output">
+     <div class="output">
         <ul id="result">
        </ul>
         </div>

@@ -5,7 +5,6 @@ $(document).ready(function() {
       magicalNumbers.forEach(function(wambui){
         $("#result").append("<li>" + wambui + "</li>");
       });
-      // $("#result").text(result);
     });
   });
 var magicalNumbers=[];
